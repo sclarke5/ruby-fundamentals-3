@@ -54,4 +54,9 @@ puts fav_artists
 city_population[:toronto] = 3000000
 puts city_population
 
-# Exercise 5 
+# Exercise 5
+total_population=0
+city_population.each do |k,value|
+  total_population += value
+end
+puts total_population
