@@ -37,3 +37,21 @@ movie_years['beauty and the beast'] = [1991, 2017]
 puts movie_years
 
 # Exercise 4
+array_ages.select do |num|
+  if num < 30
+    puts num
+  end
+end
+puts array_ages[0]
+coin_toss.select do |toss|
+  if toss == true
+    puts toss
+  end
+end
+puts coin_toss.count(true)
+fav_artists.delete_at(1)
+puts fav_artists
+city_population[:toronto] = 3000000
+puts city_population
+
+# Exercise 5 
