@@ -60,3 +60,18 @@ city_population.each do |k,value|
   total_population += value
 end
 puts total_population
+hash_ages.each do |k,value|
+  if value >= 28
+    puts "#{k} is old"
+  else
+    puts "#{k} is young"
+  end
+end
+puts string_colors [-2..-1]
+array_ages.each do |i|
+  puts i + 1
+end
+string_colors << ['grey', 'white']
+puts string_colors
+
+# Exercise 6
