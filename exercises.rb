@@ -8,3 +8,9 @@ words_def = {car: 'a metal box that travels on four wheels', desk: 'a flat surfa
 movie_years = {godfather: 1972, scarface: 1983, memento: 2000}
 city_population = {toronto: 2700000, rio: 6500000, shanghai: 24000000}
 hash_ages = {sean: 27, tricia: 25, robyn: 30, kristen: 28, taylor: 22}
+
+puts coin_toss
+puts string_colors[0]
+puts array_ages.sort
+array_ages << 0
+puts movie_years[:godfather]
