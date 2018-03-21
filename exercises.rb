@@ -14,3 +14,12 @@ puts string_colors[0]
 puts array_ages.sort
 array_ages << 0
 puts movie_years[:godfather]
+
+puts string_colors[-1]
+city_population[:tokyo] = 2000000
+coin_toss = coin_toss.reverse
+puts coin_toss
+puts city_population[:rio]
+fav_artists.each do |artist|
+  puts "#{artist} is one of my favourite artists"
+end
