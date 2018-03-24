@@ -75,3 +75,13 @@ string_colors << ['grey', 'white']
 puts string_colors
 
 # Exercise 6
+movie_info = {1999 => ['The Matrix', 'Star Wars: Episode 1', 'The Mummy'], 2009 => ['Avatar', 'Star Trek',
+  'District 9'], 2019 => ['How to Train Your Dragon 3', 'Toy Story 4', 'Star Wars: Episode 9']}
+puts movie_info
+
+phone_buttons = [[1, 2, 3], [4, 5, 6], [7, 8, 9], ['*', 0, '#']]
+puts phone_buttons
+
+countries = [{name: 'Cuba', continent: 'North America', island: true}, {name: 'Colombia', continent:
+'South America', island: false}, {name: 'Sweden', continent: 'Europe', island: false}]
+puts countries
