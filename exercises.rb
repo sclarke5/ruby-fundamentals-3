@@ -129,3 +129,22 @@ puts "Not islands:"
 puts not_islands
 
 # Exercise 8
+expenses = [250, 7.95, 30.95, 16.50]
+total = 0
+expenses.each do |exp|
+  total = total + exp
+end
+puts total
+
+def calculate(number)
+  total_expense = 0
+  number.each do |x|
+    total_expense = total_expense + x
+    end
+  return total_expense
+end
+
+puts calculate([250, 7.95, 30.95, 16.50])
+puts calculate([40, 22, 23.5, 60])
+
+# Exercise 9
