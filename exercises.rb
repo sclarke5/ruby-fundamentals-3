@@ -85,3 +85,47 @@ puts phone_buttons
 countries = [{name: 'Cuba', continent: 'North America', island: true}, {name: 'Colombia', continent:
 'South America', island: false}, {name: 'Sweden', continent: 'Europe', island: false}]
 puts countries
+
+# Exercise 7
+20.times do
+ puts "I will not skateboard in the halls"
+end
+message = []
+
+20.times do
+  message.push('I will not skateboard in the halls')
+end
+puts message
+
+one_fifty = (1..50).to_a
+puts one_fifty
+
+sum = 0
+one_fifty.each do |i|
+  sum = sum + i
+end
+puts sum
+
+three_each = []
+one_fifty.each do |num|
+  three_each.push(num)
+  three_each.push(num)
+  three_each.push(num)
+end
+puts three_each
+
+not_islands = []
+islands = []
+countries.each do |v|
+  if v[:island] == false
+    not_islands.push(v[:name])
+  else
+    islands.push(v[:name])
+  end
+end
+puts "Islands:"
+puts islands
+puts "Not islands:"
+puts not_islands
+
+# Exercise 8
